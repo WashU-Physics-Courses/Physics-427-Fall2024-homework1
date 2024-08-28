@@ -119,6 +119,7 @@ Write a C++ function that evaluates the following somewhat complicated function:
 $$
     f(x) = \zeta x^2 \frac{(1+x^2)^{-\zeta-1}\sqrt{2\zeta - 1}}{\sqrt{(1+x^2)^{2\zeta} - 1 - 2\zeta x^2}}
 $$
+
 where $\zeta$ is a constant. For our purpose, lets set $\zeta = 1.44$. This function comes up when studying the global stability of a helical magnetic field in a plasma.
 
 Write your function implementation in a file `problem4.cpp`. In the main function of the same file, print out the function values for $x = 10^{-2}$, $10^{-3}$, $10^{-4}$, $10^{-5}$, $10^{-6}$, and $10^{-7}$ in the following format:
